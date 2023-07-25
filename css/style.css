@@ -519,7 +519,8 @@ main .sobre{
 .footer_sociais li i{
     padding: 9px;
     font-size: 1.5rem;
-    color: #f7f7f7;
+    color: white;
+    
 }
 .footer_sociais li:hover{
     transition: .3s ease-in-out;
@@ -537,7 +538,7 @@ footer .footer_social{
     text-align: center;
     color: #fff;
     margin: 90px auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 @media (max-width: 1089px){
