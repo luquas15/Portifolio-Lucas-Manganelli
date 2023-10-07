@@ -40,6 +40,8 @@ header span {
 
 header .navegacao-primaria{
     position: fixed;
+    z-index: 999;
+    display: flex;
     gap: 30px;
     align-items: center;
 }
