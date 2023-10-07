@@ -39,8 +39,10 @@ header span {
 }
 
 header .navegacao-primaria{
+    position: fixed;
+    margin-left: 300px;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -72,6 +74,7 @@ header .navegacao-primaria li a:hover::after {
 /* Download CV Section */
 
 .section-div{
+    margin: 20px;
     animation: initialize .7s forwards;
     background-color: #000;
     display: grid;
