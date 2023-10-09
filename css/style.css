@@ -2,13 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@media (max-width: 768px) {
-    /* Estilos para telas menores, como telefones */
-}
 
-@media (min-width: 769px) {
-    /* Estilos para telas maiores, como monitores */
-}
+
+@media (min-width: 769px) and (max-width: 768px);
 
 *{
 
