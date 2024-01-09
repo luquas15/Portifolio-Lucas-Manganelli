@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@media (min-width: 769px) and (max-width: 1200px){
+@media (min-width: 769px) and (max-width: 1200px){}
 
 html {
     margin: 0;
@@ -618,5 +618,4 @@ footer .footer_social{
     .sobre_conteudo{
         grid-column: 1/-1;
     }
-}
 }
