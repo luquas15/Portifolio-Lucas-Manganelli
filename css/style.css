@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@media (min-width: 769px) and (max-width: 768px);
+@media (min-width: 769px) and (max-width: 768px){}
 
 *{
     margin: 0;
@@ -31,7 +31,7 @@ header {
 }
 
 header h1 {
-    color: #87CEFA	;
+    color: #00c531;
     font-size: 2rem;
 }
 
@@ -67,7 +67,7 @@ header .navegacao-primaria li a:hover::after {
     width: 100%;
     height: 0px;
     padding: 0px;
-    border-bottom: 4px solid #87CEFA	;
+    border-bottom: 4px solid #00c531;
 }
 
 
@@ -171,7 +171,7 @@ main .sobre{
 .sobre_titulo h1{
     font-family: 'Montserrat', sans-serif;
     font-size:2.5rem;
-    color: #87CEFA	;
+    color: #00c531;
     margin-bottom: 15px;
     
 }
@@ -194,7 +194,7 @@ main .sobre{
     width: 20px;
     height: 20px;
     border-radius:50%;
-    background-color: #87CEFA	;
+    background-color: #00c531;
 }
 
 .sobre img{
@@ -233,7 +233,7 @@ main .sobre{
 }
 
 .sobre_texto h1::after{
-    background-color: #87CEFA	;
+    background-color: #00c531;
     height: 6px;
     width: 60px;
     margin: 20px 0;
@@ -258,7 +258,7 @@ main .sobre{
 }
 
 .sobre_info i{
-    color: #87CEFA	;
+    color: #00c531;
     display: inline-block;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -331,7 +331,7 @@ main .sobre{
 
 .my_services ul li i {
     font-size: 2.7rem;
-    color: #87CEFA	;
+    color: #00c531;
 }
 
 .my_services ul li h3{
@@ -375,15 +375,15 @@ main .sobre{
 .my_services li:hover::before{
     width: 100%;
     height: 100%;
-    border-top: 2px solid #87CEFA	;
-    border-right: 2px solid #87CEFA	;
+    border-top: 2px solid #00c531;
+    border-right: 2px solid #00c531;
 }
 
 .my_services li:hover::after{
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid #87CEFA	;
-    border-left: 2px solid #87CEFA	;
+    border-bottom: 2px solid #00c531;
+    border-left: 2px solid #00c531;
 }
 .my_resume{
     color: #fff;
@@ -400,7 +400,7 @@ main .sobre{
 .resume_generica h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
-    background-color: #87CEFA;
+    background-color: #00c531;
     justify-self: start;
     padding: 10px; 
     border-radius: 3px;
@@ -419,7 +419,7 @@ main .sobre{
     grid-row: 1;
 }
 .cursos_content ul{
-    color: #87CEFA;
+    color: #00c531;
     gap: 10px;
     display: flex;
     cursor: pointer;
@@ -446,7 +446,7 @@ main .sobre{
     display: inline-block;
 }
 .resume_generica .cursos_content div span{
-    color: #87CEFA;
+    color: #00c531;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
@@ -469,7 +469,7 @@ main .sobre{
     position: relative;
 }
 .educacao_content ul{
-    color: #87CEFA;
+    color: #00c531;
     gap: 10px;
     display: flex;
     cursor: pointer;
@@ -486,7 +486,7 @@ main .sobre{
     display: inline-block;
 }
 .resume_generica .educacao_content div span{
-    color: #87CEFA;
+    color: #00c531;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
@@ -504,6 +504,115 @@ main .sobre{
 .resume_generica .educacao_content div.ativo{
     display: block;
 }
+.experiencias {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif; /* fonte Poppins */
+    text-align: justify; /* texto justificado */
+}
+
+.experiencias .sobre_titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experiencias .sobre_titulo h1 {
+    font-size: 2.8rem;
+    color: #00c531;
+    margin-bottom: 6px;
+}
+
+.experiencias .sobre_titulo p {
+    font-size: 1.1rem;
+    color: #bbb;
+    margin-bottom: 12px;
+}
+
+.experiencias .sobre_titulo div[aria-label="Seção de botões"] span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #00c531;
+    margin: 0 6px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.experiencias .sobre_titulo div[aria-label="Seção de botões"] span:hover {
+    background-color: #5efc5e;
+}
+
+.experiencias_content > div {
+    margin-bottom: 30px;
+    background: #222;
+    padding: 20px 25px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px #00c531;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify; /* justificado dentro dos cards */
+}
+
+.experiencias_content > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px #00c531;
+}
+
+.experiencias_content span {
+    font-weight: 600;
+    color: #00c531;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.experiencias_content h3 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experiencias_content h3 i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.experiencias_content ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.experiencias_content ul li {
+    margin-bottom: 10px;
+}
+
+.experiencias_content ul li strong {
+    color: #00c531;
+}
+
+@media screen and (max-width: 600px) {
+    .experiencias {
+        padding: 30px 10px;
+    }
+
+    .experiencias_content h3 {
+        font-size: 1.3rem;
+    }
+}
+
 .footer{
     background-color: #000;
     padding: 30px;
